@@ -1,4 +1,4 @@
-package riccardoExercise;
+
 
 public class Ex1HelloWorld {
 	

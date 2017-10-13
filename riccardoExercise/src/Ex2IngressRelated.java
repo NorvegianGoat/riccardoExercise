@@ -1,4 +1,4 @@
-package riccardoExercise;
+
 
 import java.util.Scanner;
 
