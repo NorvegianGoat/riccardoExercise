@@ -15,6 +15,7 @@ public class Gallina extends Animale {
 
 	@Override
 	public void emettiVerso() {
+		//La gallina crocchia o chioccia, rispettivamente dai verbi crocchiare e chiocciare. 
 		System.out.println(getNome() + ":" + " CO CO CO");
 	}
 

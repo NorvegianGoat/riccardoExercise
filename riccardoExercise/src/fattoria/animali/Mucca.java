@@ -4,7 +4,8 @@ import fattoria.Animale;
 
 public class Mucca extends Animale{
 
-
+	int litriDiLatte;
+	
 	/**
 	 * Delego al costruttore di animale basato sul nome, che mi va bene
 	 * @param string
