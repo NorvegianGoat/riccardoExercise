@@ -3,6 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import fattoria.animali.Cane;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 
 /**
@@ -29,6 +30,12 @@ public class Fattoria {
 	 */
 	public void aggiungiAnimale(Animale inputAnimale){
 		animali.add(inputAnimale);
+	}
+	
+	
+	public Animale getAnimaleACaso(){
+		//TODO: torna un animale casuale, solleva eccezione se non ce ne sono
+		throw new NotImplementedException();
 	}
 	
 	

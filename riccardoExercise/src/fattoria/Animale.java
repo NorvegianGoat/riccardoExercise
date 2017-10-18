@@ -20,10 +20,18 @@ public abstract class Animale {
 		nome = nomeAnimale;
 	}
 
+	/**
+	 * Def. getter
+	 * @return
+	 */
 	public String getNome() {
 		return nome;
 	}
 
+	/**
+	 * Def. setter
+	 * @param nome
+	 */
 	public void setNome(String nome) {
 		this.nome = nome;
 	}

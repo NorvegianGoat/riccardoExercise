@@ -12,8 +12,13 @@ public class FattoriaTest {
 
 		Fattoria fattoriaDiTest = creaFattoriaDiTest(3);
 
-		// TODO riccardo perche le mucche abbaiano?
+		// TODO 1riccardo perche le mucche abbaiano?+
+		// TODO 2dai una raddrizzata al contadino
+		// TODO 3aggiusta il cane rabbioso
 		fattoriaDiTest.faiAppello();
+		
+		// TODO 4fix NotImplementedException
+		Animale bestiaTest = fattoriaDiTest.getAnimaleACaso();
 	}
 
 	/**
